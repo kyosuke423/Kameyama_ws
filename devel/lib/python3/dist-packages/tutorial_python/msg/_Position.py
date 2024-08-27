@@ -1,0 +1,1 @@
+/home/dars/kameyama_ws/devel/.private/tutorial_python/lib/python3/dist-packages/tutorial_python/msg/_Position.py

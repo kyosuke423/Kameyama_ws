@@ -1,0 +1,8 @@
+prefix=/home/dars/kameyama_ws/devel/.private/tutorial_python
+
+Name: tutorial_python
+Description: Description of tutorial_python
+Version: 0.0.0
+Cflags: -I/home/dars/kameyama_ws/devel/.private/tutorial_python/include
+Libs: -L${prefix}/lib 
+Requires: 

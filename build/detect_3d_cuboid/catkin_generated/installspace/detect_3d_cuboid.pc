@@ -1,0 +1,8 @@
+prefix=/home/dars/kameyama_ws/install
+
+Name: detect_3d_cuboid
+Description: Description of detect_3d_cuboid
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -ldetect_3d_cuboid
+Requires: cmake_modules roscpp roslib tictoc_profiler std_msgs

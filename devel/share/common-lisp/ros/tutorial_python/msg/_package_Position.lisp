@@ -1,0 +1,1 @@
+/home/dars/kameyama_ws/devel/.private/tutorial_python/share/common-lisp/ros/tutorial_python/msg/_package_Position.lisp

@@ -1,0 +1,1 @@
+/home/dars/kameyama_ws/devel/.private/line_msg/share/gennodejs/ros/line_msg/_index.js

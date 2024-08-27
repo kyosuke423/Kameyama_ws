@@ -1,0 +1,1 @@
+/home/dars/kameyama_ws/devel/.private/D_op/share/D_op/cmake/D_opConfig.cmake

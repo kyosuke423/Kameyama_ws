@@ -1,0 +1,20 @@
+yolov5_ros
+/home/dars/kameyama_ws/devel/.private/yolov5_ros/cmake.lock /home/dars/kameyama_ws/devel/./cmake.lock
+/home/dars/kameyama_ws/devel/.private/yolov5_ros/share/yolov5_ros/cmake/yolov5_rosConfig.cmake /home/dars/kameyama_ws/devel/share/yolov5_ros/cmake/yolov5_rosConfig.cmake
+/home/dars/kameyama_ws/devel/.private/yolov5_ros/share/yolov5_ros/cmake/yolov5_ros-msg-paths.cmake /home/dars/kameyama_ws/devel/share/yolov5_ros/cmake/yolov5_ros-msg-paths.cmake
+/home/dars/kameyama_ws/devel/.private/yolov5_ros/share/yolov5_ros/cmake/yolov5_rosConfig-version.cmake /home/dars/kameyama_ws/devel/share/yolov5_ros/cmake/yolov5_rosConfig-version.cmake
+/home/dars/kameyama_ws/devel/.private/yolov5_ros/share/yolov5_ros/cmake/yolov5_ros-msg-extras.cmake /home/dars/kameyama_ws/devel/share/yolov5_ros/cmake/yolov5_ros-msg-extras.cmake
+/home/dars/kameyama_ws/devel/.private/yolov5_ros/share/common-lisp/ros/yolov5_ros/msg/_package_yolov5_data.lisp /home/dars/kameyama_ws/devel/share/common-lisp/ros/yolov5_ros/msg/_package_yolov5_data.lisp
+/home/dars/kameyama_ws/devel/.private/yolov5_ros/share/common-lisp/ros/yolov5_ros/msg/_package.lisp /home/dars/kameyama_ws/devel/share/common-lisp/ros/yolov5_ros/msg/_package.lisp
+/home/dars/kameyama_ws/devel/.private/yolov5_ros/share/common-lisp/ros/yolov5_ros/msg/yolov5_ros-msg.asd /home/dars/kameyama_ws/devel/share/common-lisp/ros/yolov5_ros/msg/yolov5_ros-msg.asd
+/home/dars/kameyama_ws/devel/.private/yolov5_ros/share/common-lisp/ros/yolov5_ros/msg/yolov5_data.lisp /home/dars/kameyama_ws/devel/share/common-lisp/ros/yolov5_ros/msg/yolov5_data.lisp
+/home/dars/kameyama_ws/devel/.private/yolov5_ros/share/roseus/ros/yolov5_ros/manifest.l /home/dars/kameyama_ws/devel/share/roseus/ros/yolov5_ros/manifest.l
+/home/dars/kameyama_ws/devel/.private/yolov5_ros/share/roseus/ros/yolov5_ros/msg/yolov5_data.l /home/dars/kameyama_ws/devel/share/roseus/ros/yolov5_ros/msg/yolov5_data.l
+/home/dars/kameyama_ws/devel/.private/yolov5_ros/share/gennodejs/ros/yolov5_ros/_index.js /home/dars/kameyama_ws/devel/share/gennodejs/ros/yolov5_ros/_index.js
+/home/dars/kameyama_ws/devel/.private/yolov5_ros/share/gennodejs/ros/yolov5_ros/msg/yolov5_data.js /home/dars/kameyama_ws/devel/share/gennodejs/ros/yolov5_ros/msg/yolov5_data.js
+/home/dars/kameyama_ws/devel/.private/yolov5_ros/share/gennodejs/ros/yolov5_ros/msg/_index.js /home/dars/kameyama_ws/devel/share/gennodejs/ros/yolov5_ros/msg/_index.js
+/home/dars/kameyama_ws/devel/.private/yolov5_ros/lib/python3/dist-packages/yolov5_ros/__init__.py /home/dars/kameyama_ws/devel/lib/python3/dist-packages/yolov5_ros/__init__.py
+/home/dars/kameyama_ws/devel/.private/yolov5_ros/lib/python3/dist-packages/yolov5_ros/msg/__init__.py /home/dars/kameyama_ws/devel/lib/python3/dist-packages/yolov5_ros/msg/__init__.py
+/home/dars/kameyama_ws/devel/.private/yolov5_ros/lib/python3/dist-packages/yolov5_ros/msg/_yolov5_data.py /home/dars/kameyama_ws/devel/lib/python3/dist-packages/yolov5_ros/msg/_yolov5_data.py
+/home/dars/kameyama_ws/devel/.private/yolov5_ros/lib/pkgconfig/yolov5_ros.pc /home/dars/kameyama_ws/devel/lib/pkgconfig/yolov5_ros.pc
+/home/dars/kameyama_ws/devel/.private/yolov5_ros/include/yolov5_ros/yolov5_data.h /home/dars/kameyama_ws/devel/include/yolov5_ros/yolov5_data.h

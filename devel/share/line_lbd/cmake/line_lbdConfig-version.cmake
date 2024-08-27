@@ -1,0 +1,1 @@
+/home/dars/kameyama_ws/devel/.private/line_lbd/share/line_lbd/cmake/line_lbdConfig-version.cmake

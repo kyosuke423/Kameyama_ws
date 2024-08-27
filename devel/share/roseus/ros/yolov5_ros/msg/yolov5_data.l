@@ -1,0 +1,1 @@
+/home/dars/kameyama_ws/devel/.private/yolov5_ros/share/roseus/ros/yolov5_ros/msg/yolov5_data.l

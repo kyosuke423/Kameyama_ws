@@ -1,0 +1,5 @@
+[ 11%] [32m[1mLinking CXX shared library /home/dars/kameyama_ws/devel/.private/line_lbd/lib/libline_lbd_lib.so[0m
+[ 77%] Built target line_lbd_lib
+[ 88%] [32mBuilding CXX object CMakeFiles/linelbd_detect_node.dir/src/detect_lines.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/dars/kameyama_ws/devel/.private/line_lbd/lib/line_lbd/linelbd_detect_node[0m
+[100%] Built target linelbd_detect_node

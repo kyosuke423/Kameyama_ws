@@ -1,0 +1,1 @@
+/home/dars/kameyama_ws/devel/.private/yolov5_ros/lib/python3/dist-packages/yolov5_ros/__init__.py

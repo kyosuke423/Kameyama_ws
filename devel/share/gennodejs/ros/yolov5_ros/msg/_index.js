@@ -1,0 +1,1 @@
+/home/dars/kameyama_ws/devel/.private/yolov5_ros/share/gennodejs/ros/yolov5_ros/msg/_index.js

@@ -1,0 +1,1 @@
+/home/dars/kameyama_ws/devel/.private/line_msg/share/common-lisp/ros/line_msg/msg/LinePoint.lisp

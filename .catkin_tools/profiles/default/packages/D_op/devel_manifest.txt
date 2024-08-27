@@ -1,0 +1,5 @@
+D_op
+/home/dars/kameyama_ws/devel/.private/D_op/cmake.lock /home/dars/kameyama_ws/devel/./cmake.lock
+/home/dars/kameyama_ws/devel/.private/D_op/share/D_op/cmake/D_opConfig-version.cmake /home/dars/kameyama_ws/devel/share/D_op/cmake/D_opConfig-version.cmake
+/home/dars/kameyama_ws/devel/.private/D_op/share/D_op/cmake/D_opConfig.cmake /home/dars/kameyama_ws/devel/share/D_op/cmake/D_opConfig.cmake
+/home/dars/kameyama_ws/devel/.private/D_op/lib/pkgconfig/D_op.pc /home/dars/kameyama_ws/devel/lib/pkgconfig/D_op.pc

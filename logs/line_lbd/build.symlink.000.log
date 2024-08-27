@@ -1,0 +1,5 @@
+Symlinking /home/dars/kameyama_ws/devel/share/line_lbd/cmake/line_lbdConfig-version.cmake
+Symlinking /home/dars/kameyama_ws/devel/share/line_lbd/cmake/line_lbdConfig.cmake
+Symlinking /home/dars/kameyama_ws/devel/lib/libline_lbd_lib.so
+Symlinking /home/dars/kameyama_ws/devel/lib/line_lbd/linelbd_detect_node
+Symlinking /home/dars/kameyama_ws/devel/lib/pkgconfig/line_lbd.pc

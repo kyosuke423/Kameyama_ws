@@ -1,0 +1,8 @@
+prefix=/home/dars/kameyama_ws/install
+
+Name: line_msg
+Description: Description of line_msg
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs message_runtime

@@ -1,0 +1,8 @@
+prefix=/home/dars/kameyama_ws/devel/.private/test_cpp
+
+Name: test_cpp
+Description: Description of test_cpp
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

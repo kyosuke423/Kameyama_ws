@@ -1,0 +1,1 @@
+/home/dars/kameyama_ws/devel/.private/line_msg/lib/pkgconfig/line_msg.pc

@@ -1,0 +1,1 @@
+/home/dars/kameyama_ws/devel/.private/line_msg/share/line_msg/cmake/line_msg-msg-extras.cmake

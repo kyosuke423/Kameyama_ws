@@ -1,0 +1,1 @@
+/home/dars/kameyama_ws/devel/.private/tutorial_python/lib/tutorial_python/service_client_node.py

@@ -1,0 +1,5 @@
+Symlinking /home/dars/kameyama_ws/devel/share/detect_3d_cuboid/cmake/detect_3d_cuboidConfig-version.cmake
+Symlinking /home/dars/kameyama_ws/devel/share/detect_3d_cuboid/cmake/detect_3d_cuboidConfig.cmake
+Symlinking /home/dars/kameyama_ws/devel/lib/libdetect_3d_cuboid.so
+Symlinking /home/dars/kameyama_ws/devel/lib/detect_3d_cuboid/detect_3d_cuboid_node
+Symlinking /home/dars/kameyama_ws/devel/lib/pkgconfig/detect_3d_cuboid.pc

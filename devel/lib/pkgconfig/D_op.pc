@@ -1,0 +1,1 @@
+/home/dars/kameyama_ws/devel/.private/D_op/lib/pkgconfig/D_op.pc

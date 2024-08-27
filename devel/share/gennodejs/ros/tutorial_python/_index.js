@@ -1,0 +1,1 @@
+/home/dars/kameyama_ws/devel/.private/tutorial_python/share/gennodejs/ros/tutorial_python/_index.js

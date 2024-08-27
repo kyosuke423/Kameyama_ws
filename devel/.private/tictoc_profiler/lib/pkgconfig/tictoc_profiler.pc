@@ -1,0 +1,8 @@
+prefix=/home/dars/kameyama_ws/devel/.private/tictoc_profiler
+
+Name: tictoc_profiler
+Description: Description of tictoc_profiler
+Version: 0.0.0
+Cflags: -I/home/dars/kameyama_ws/devel/.private/tictoc_profiler/include -I/home/dars/kameyama_ws/src/cube_slam/dependency/tictoc_profiler/include -I/usr/include
+Libs: -L${prefix}/lib -ltictoc_profiler /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+Requires: roscpp std_msgs message_runtime

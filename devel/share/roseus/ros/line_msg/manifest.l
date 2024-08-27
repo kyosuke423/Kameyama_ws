@@ -1,0 +1,1 @@
+/home/dars/kameyama_ws/devel/.private/line_msg/share/roseus/ros/line_msg/manifest.l

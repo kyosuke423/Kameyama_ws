@@ -1,0 +1,1 @@
+/home/dars/kameyama_ws/devel/.private/detect_3d_cuboid/lib/pkgconfig/detect_3d_cuboid.pc

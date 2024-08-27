@@ -1,0 +1,1 @@
+/home/dars/kameyama_ws/devel/.private/tutorial_python/share/roseus/ros/tutorial_python/srv/multiplier.l

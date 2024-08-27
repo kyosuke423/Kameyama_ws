@@ -1,0 +1,1 @@
+/home/dars/kameyama_ws/devel/.private/line_msg/lib/python3/dist-packages/line_msg/msg/_LinePoint.py

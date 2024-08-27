@@ -1,0 +1,8 @@
+prefix=/home/dars/kameyama_ws/install
+
+Name: tutorial_python
+Description: Description of tutorial_python
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 
