@@ -1,0 +1,8 @@
+prefix=/home/dars/kameyama_ws/src/D_op/build/devel
+
+Name: D_op
+Description: Description of D_op
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

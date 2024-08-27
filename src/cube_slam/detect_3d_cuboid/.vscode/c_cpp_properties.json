@@ -1,0 +1,57 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/das-note-7/yolo_ws/devel/include/**",
+                "/home/das-note-7/tool_ws/install_isolated/include/**",
+                "/home/das-note-7/kawase_ws/devel/include/**",
+                "/home/das-note-7/catkin_ws/devel/include/**",
+                "/opt/ros/kinetic/include/**",
+                "/home/das-note-7/kawase_ws/src/ar_track_alvar/ar_track_alvar/include/**",
+                "/home/das-note-7/kawase_ws/src/BehaviorTree.CPP/include/**",
+                "/home/das-note-7/kawase_ws/src/BehaviorTree.ROS/include/**",
+                "/home/das-note-7/yolo_ws/src/darknet_ros/darknet_ros/include/**",
+                "/home/das-note-7/kawase_ws/src/DynamixelSDK/ros/include/**",
+                "/home/das-note-7/kawase_ws/src/dynamixel-workbench/dynamixel_workbench_controllers/include/**",
+                "/home/das-note-7/kawase_ws/src/dynamixel-workbench/dynamixel_workbench_operators/include/**",
+                "/home/das-note-7/kawase_ws/src/dynamixel-workbench/dynamixel_workbench_single_manager/include/**",
+                "/home/das-note-7/kawase_ws/src/dynamixel-workbench/dynamixel_workbench_single_manager_gui/include/**",
+                "/home/das-note-7/kawase_ws/src/dynamixel-workbench/dynamixel_workbench_toolbox/include/**",
+                "/home/das-note-7/kawase_ws/src/edge_detection/include/**",
+                "/home/das-note-7/kawase_ws/src/find-object/include/**",
+                "/home/das-note-7/kawase_ws/src/graph_data/include/**",
+                "/home/das-note-7/catkin_ws/src/kl_composition/include/**",
+                "/home/das-note-7/kawase_ws/src/mecanum_ctrl/include/**",
+                "/home/das-note-7/kawase_ws/src/moveit_test/include/**",
+                "/home/das-note-7/kawase_ws/src/object_callback/include/**",
+                "/home/das-note-7/kawase_ws/src/obstacle_detector/include/**",
+                "/home/das-note-7/catkin_ws/src/obtain_scan/include/**",
+                "/home/das-note-7/kawase_ws/src/occupancy_grid_utils/include/**",
+                "/home/das-note-7/catkin_ws/src/orb_pose_republisher/include/**",
+                "/home/das-note-7/kawase_ws/src/pointcloud_to_laserscan/include/**",
+                "/home/das-note-7/kawase_ws/src/publisher_test/include/**",
+                "/home/das-note-7/kawase_ws/src/realsense-ros/realsense2_camera/include/**",
+                "/home/das-note-7/catkin_ws/src/ros_topic_test/include/**",
+                "/home/das-note-7/kawase_ws/src/teb_local_planner/include/**",
+                "/home/das-note-7/catkin_ws/src/test_sousa/include/**",
+                "/home/das-note-7/catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+                "/home/das-note-7/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+                "/home/das-note-7/catkin_ws/src/turtlebot3/turtlebot3_slam/include/**",
+                "/home/das-note-7/kawase_ws/src/youbot_simulation/youbot_description/include/**",
+                "/home/das-note-7/kawase_ws/src/youbot_projected_gradient/include/**",
+                "/home/das-note-7/kawase_ws/src/youbot_simulation/youbot_trajectory_action_server/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

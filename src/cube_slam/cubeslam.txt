@@ -1,0 +1,115 @@
+ーーー上から順に実行ーーー
+
+単眼カメラの起動
+source devel/setup.bash
+roslaunch orb_object_slam mono_a.launch
+
+realsense起動
+cd ~/realsense_ws
+source devel/setup.bash
+roslaunch realsense2_camera cubeslam_camera.launch
+
+ARマーカー起動
+roslaunch ar_track_alvar realsense_indiv.launch 
+
+YOLO（どれかを選択）
+cd ~/esaki_ws/
+source devel/setup.bash
+rosrun yolov5_ros cubeslam2.py
+rosrun yolov5_ros cubeslamtest.py　・・・subsclibe用
+rosrun yolov5_ros cubeslam_pub.py　・・・publish用
+rosrun yolov5_ros detect.py　・・・単眼、publish用
+
+cubeslam起動（どれかを選択）
+cd ~/esaki_ws/
+source devel/setup.bash
+roslaunch orb_object_slam rgbd.launch
+
+source devel/setup.bash
+rosrun orb_object_slam paramsettest
+source devel/setup.bash
+rosrun orb_object_slam paramsettest　・・・複眼用
+roslaunch orb_object_slam mono.launch　・・・単眼用
+
+ーーー他のプログラムーーー
+
+直方体検出のみ
+source devel/setup.bash
+roslaunch detect_3d_cuboid detect_3d_cuboid.launch
+
+realsense起動(幅指定なし)
+cd ~/realsense_ws
+source devel/setup.bash
+roslaunch realsense2_camera rs_camera.launch
+
+rosrunできないとき
+python3 /home/dars/toyama_ws/src/yolov5_ros/src/detect.py
+
+直線検出
+source devel/setup.bash
+roslaunch line_lbd line_detect.launch
+
+
+noetic対応
+opencv関連を修正する　参考：orb-slam2のopencv4移行
+DBoW2,g2oのbuildをやり直す　install_deoendenices.shを参照
+EigenはWarningが出る、出てても実行可能（直せなかった）
+usleepがあるプログラムにはunistd.hをincludeすること
+GRAY2RGBとかが変わる　名前間違えないように　カラー変換系のエラー出たら間違ってる
+
+落ちる対策
+サンプリングの幅　0になってたらwhileが終わらない　→　幅10以下は検出しないように対策
+
+updateうまくいかないとき
+sudo apt-get clean
+
+printの追加
+//11.17debug　→　Tracking.ccのチェック用
+//11.18debug　→　Lostしたときのチェック用
+//12.15debug　→　落ちるときのチェック
+//1.12new →　座標チェック用
+
+free(): invalid pointer ここで落ちることある
+BA edges  point-cam  object-cam  3680  6     も
+
+New Triangulated pt num:   6
+
+print_cuboid　boxの詳細出せる
+
+1.27 落ちる部分
+Tracking...　←ここで落ちた
+CheckReplacedInLastFrame!TrackWithMotionModel!UpdateLocalKeyFrames!UpdateLocalPointsUpdateLocalMap!SearchLocalPoints!Tracking!Tracking...　←本来続くとこのはず
+
+AssociateCuboids!CreateNewKeyFrame!Tracking!Tracking...
+CheckReplacedInLastFrame!TrackWithMotionModel!UpdateLocalKeyFrames!UpdateLocalPointsUpdateLocalMap!SearchLocalPoints!Tracking!Tracking...
+
+CreateNewMapPoints!
+Tracking...とかいろいろ続く
+
+中心座標、幅高さ奥行き、回転（全部０）、クラス、ID(０)でpublishする
+ //1.26new depth iretemiru で震度入れてる
+
+ターミナル１
+cd ~/esaki_ws
+rosrun esaki_youbot_project_gradient youbot_camera_real_trajectory_node.py 
+
+ターミナル２
+cd ~/esaki_ws/src/Yolov5_StrongSORT/Yolov5_StrongSORT_OSNet
+pip install -r requirements.txt 
+
+cd ~/esaki_ws
+source devel/setup.bash 
+
+cd ~/esaki_ws/src/Yolov5_StrongSORT/Yolov5_StrongSORT_OSNet
+rosrun Yolov5_StrongSORT yolo_track_image_2.py
+
+-----------------------
+変えたとこ
+2.3new サンプリング増やした
+2.4new ボックス下増やした
+2.4new 画像もクラスで色分けした
+2.5new cannyの調整
+2.6new param設定
+2.8new 位置調整
+2.11new ARの確認
+2.12new yaw変換

@@ -1,0 +1,34 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/dars/catkin_ws/devel/include/**",
+        "/home/dars/hukumura/ros/devel/include/**",
+        "/home/dars/ros2024/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/dars/catkin_ws/src/ar_track_alvar/ar_track_alvar/include/**",
+        "/home/dars/catkin_ws/src/crane_plus_arm/crane_plus_camera_calibration/include/**",
+        "/home/dars/catkin_ws/src/crane_plus_arm/crane_plus_ikfast_arm_plugin/include/**",
+        "/home/dars/catkin_ws/src/cuboid_analysis/include/**",
+        "/home/dars/catkin_ws/src/darknet_ros/darknet_ros/include/**",
+        "/home/dars/catkin_ws/src/bebop_slam_related/marker_util/include/**",
+        "/home/dars/hukumura/ros2024/src/ros_topic_test/include/**",
+        "/home/dars/catkin_ws/src/bebop_slam_related/slam_util/include/**",
+        "/home/dars/hukumura/ros2024/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/dars/hukumura/ros2024/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/dars/ros2024/src/ros_tutorials/turtlesim/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

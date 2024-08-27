@@ -1,0 +1,28 @@
+<!-- -->
+<launch>
+   <!-- <arg name="view" default="true"/> -->
+
+   <!-- <node pkg="usb_cam" type="usb_cam_node" name="camera">
+      <param name="image_width" value="640"/>
+      <param name="image_height" value="480"/>
+      <param name="pixel_format" value="yuyv"/>
+      <param name="video_device" value="/dev/video1"/>
+      <param name="autofocus" value="false"/>
+      <param name="framerate" value="10"/>
+   </node> -->
+
+   <!-- <group if="$(arg view)">
+      <node name="image_view" pkg="image_view" type="image_view">
+         <remap from="image" to="/camera/image_raw"/>
+      </node>
+   </group> -->
+   <node pkg="line_lbd" type="linelbd_detect_node" name="linelbd_detect_node" output="screen">
+   <!-- <node pkg="line_lbd" type="linelbd_detect_node" name="linelbd_detect_node"> -->
+   </node>
+
+   <param name="save_folder" value ="$(find line_lbd)/data"/>
+   <param name="use_LSD_algorithm" value="true"/>  # true, false   LSD or Edline detector.
+   <!-- <param name="save_to_imgs" value="true"/> -->
+   <param name="save_to_txts" value="faklse"/>
+
+</launch>

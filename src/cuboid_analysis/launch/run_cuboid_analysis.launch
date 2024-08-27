@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- C++ノードを先に実行 -->
+    <node pkg="cuboid_analysis" type="ave_cov" name="ave_cov" output="screen"/>
+
+    <!-- Pythonノードを遅延実行するためのスクリプト -->
+    <node pkg="cuboid_analysis" type="run_python_node.py" name="run_python_node" output="screen">
+        <param name="delay" value="1"/> <!-- 適切な遅延時間を設定 -->
+    </node>
+</launch>

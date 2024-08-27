@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/dars/catkin_ws/src/cuboid_analysis/build/devel/setup.sh

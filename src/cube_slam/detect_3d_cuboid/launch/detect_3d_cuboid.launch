@@ -1,0 +1,7 @@
+<!-- -->
+<launch>
+
+    <node pkg="detect_3d_cuboid" type="detect_3d_cuboid_node" name="detect_3d_cuboid_node" output="screen">
+    </node>
+
+</launch>

@@ -1,0 +1,38 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/dars/onishi_youbot_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/dars/onishi_youbot_ws/src/ar_track_alvar/ar_track_alvar/include/**",
+        "/home/dars/onishi_youbot_ws/src/darknet_ros_fp16/darknet_ros/darknet_ros/include/**",
+        "/home/dars/onishi_youbot_ws/src/cube_slam/detect_3d_cuboid/include/**",
+        "/home/dars/onishi_youbot_ws/src/DynamixelSDK/ros/include/**",
+        "/home/dars/onishi_youbot_ws/src/dynamixel-workbench/dynamixel_workbench_controllers/include/**",
+        "/home/dars/onishi_youbot_ws/src/dynamixel-workbench/dynamixel_workbench_operators/include/**",
+        "/home/dars/onishi_youbot_ws/src/dynamixel-workbench/dynamixel_workbench_single_manager/include/**",
+        "/home/dars/onishi_youbot_ws/src/dynamixel-workbench/dynamixel_workbench_single_manager_gui/include/**",
+        "/home/dars/onishi_youbot_ws/src/dynamixel-workbench/dynamixel_workbench_toolbox/include/**",
+        "/home/dars/onishi_youbot_ws/src/cube_slam/line_lbd/include/**",
+        "/home/dars/onishi_youbot_ws/src/cube_slam/line_msg/include/**",
+        "/home/dars/onishi_youbot_ws/src/motion_planning/include/**",
+        "/home/dars/onishi_youbot_ws/src/cube_slam/orb_object_slam/include/**",
+        "/home/dars/onishi_youbot_ws/src/realsense-ros/realsense2_camera/include/**",
+        "/home/dars/onishi_youbot_ws/src/cube_slam/dependency/tictoc_profiler/include/**",
+        "/home/dars/onishi_youbot_ws/src/youbot_do/include/**",
+        "/home/dars/onishi_youbot_ws/src/youbot_msgs/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
